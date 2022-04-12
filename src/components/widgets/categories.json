@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_widgets_categories",
+  "info": {
+    "displayName": "Categories",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    }
+  }
+}

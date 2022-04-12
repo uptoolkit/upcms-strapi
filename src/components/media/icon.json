@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_images_icons",
+  "info": {
+    "displayName": "icon",
+    "icon": "photo-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

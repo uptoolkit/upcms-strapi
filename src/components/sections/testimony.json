@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_rows_testimonies",
+  "info": {
+    "displayName": "testimony",
+    "icon": "crown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "citation": {
+      "type": "richtext"
+    },
+    "author": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_rows_features",
+  "info": {
+    "displayName": "feature",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "commons.button"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "auto",
+        "left",
+        "right"
+      ],
+      "default": "auto"
+    },
+    "testimony": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.testimony"
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.icon"
+    }
+  }
+}

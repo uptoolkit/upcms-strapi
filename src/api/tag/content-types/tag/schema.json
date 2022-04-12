@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags",
+  "info": {
+    "singularName": "tag",
+    "pluralName": "tags",
+    "displayName": "Tag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::post.post",
+      "inversedBy": "tags"
+    }
+  }
+}

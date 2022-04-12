@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_headings_headings",
+  "info": {
+    "displayName": "heading",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "toptitle": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "richtext"
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "auto",
+        "centered",
+        "left",
+        "right"
+      ]
+    }
+  }
+}

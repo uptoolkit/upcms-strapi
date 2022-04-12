@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_commons_icon_title_body_items",
+  "info": {
+    "displayName": "IconTitleBodyItem",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.icon"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

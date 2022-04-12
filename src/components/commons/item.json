@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_commons_items",
+  "info": {
+    "displayName": "item",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.icon"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "commons.button"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

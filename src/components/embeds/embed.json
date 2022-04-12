@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_embeds_embeds",
+  "info": {
+    "displayName": "Embed",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_buttons_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "external": {
+      "type": "boolean"
+    },
+    "label": {
+      "type": "richtext"
+    }
+  }
+}

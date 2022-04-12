@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sliders_sliders",
+  "info": {
+    "displayName": "slider",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.slide"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta-social"
+    }
+  }
+}

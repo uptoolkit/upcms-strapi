@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_embeds_youtubes",
+  "info": {
+    "displayName": "Youtube",
+    "icon": "tv"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}
