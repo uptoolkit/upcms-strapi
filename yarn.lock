@@ -1519,7 +1519,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@notum-cz/strapi-plugin-content-versioning@^0.4.0":
+"@notum-cz/strapi-plugin-content-versioning@0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@notum-cz/strapi-plugin-content-versioning/-/strapi-plugin-content-versioning-0.4.0.tgz#820111d662ec01e31c4ab9eace0a7b767eea4cdf"
   integrity sha512-y5wXURqPqVkQv8FeE7/Q6Q9nyoXrXIpXGWvFwRWCWJ93fduGDIn1uiCcN1YZXUpByZy9qEDNUJHUAuHKNXDAPQ==
@@ -1961,7 +1961,7 @@
     "@strapi/utils" "4.1.5"
     lodash "4.17.21"
 
-"@strapi/plugin-graphql@^4.1.6":
+"@strapi/plugin-graphql@4.1.6":
   version "4.1.6"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-graphql/-/plugin-graphql-4.1.6.tgz#c5c5c5fe5581a953803142c6836a12a4f0e1207c"
   integrity sha512-TiGFbX6HdTHikWi4sPwiNZih6HOVLh1Y6wmEfjpxTsm4pYog9KE78Jr7SIIIcXaXrfZAHdT0xAOaB9W8assN7w==
@@ -1994,7 +1994,7 @@
     "@strapi/utils" "4.1.5"
     lodash "4.17.21"
 
-"@strapi/plugin-seo@^1.7.2":
+"@strapi/plugin-seo@1.7.2":
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-seo/-/plugin-seo-1.7.2.tgz#fd90a5fa0f58b6b841498f76dd0d730b7bf70663"
   integrity sha512-1c0ZbAKDoje07E2tZeyejq1jvmu6veo0sfPK39n8reZNmHfa/xMjcc6EOH1Po5qQGSlOviswj2uizUCMiXB97A==
@@ -10590,7 +10590,7 @@ std-env@^2.2.1:
   dependencies:
     ci-info "^3.1.1"
 
-strapi-plugin-email-designer@^2.1.0:
+strapi-plugin-email-designer@2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/strapi-plugin-email-designer/-/strapi-plugin-email-designer-2.1.0.tgz#759cff0cb572e1d9b8737e13b7c8d8426b6238ec"
   integrity sha512-QbVCYbV3mQ+8L3GdROWaawzaW5bgiYo7VftoQ7d5m4RsR+Aup8ShfU7BPeAyqqn3NH/9kq58I1CKX7/U6xMKag==
@@ -10604,7 +10604,7 @@ strapi-plugin-email-designer@^2.1.0:
     react-syntax-highlighter "^15.4.3"
     striptags "^3.2.0"
 
-strapi-plugin-ezforms@^0.0.7:
+strapi-plugin-ezforms@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/strapi-plugin-ezforms/-/strapi-plugin-ezforms-0.0.7.tgz#54fa2dd9a66278e2f53f44e9590f9605bd553e7e"
   integrity sha512-d1b8fSOSLUJ7m+CeWK3GoZ18oY6m5pMCu8yj2vh//fAcI7ZtaZXYzcWuYSniEmmxn69zqQG/STgHv+WcPRq28A==
@@ -10612,7 +10612,7 @@ strapi-plugin-ezforms@^0.0.7:
     axios "^0.24.0"
     twilio "^3.71.2"
 
-strapi-plugin-navigation@^2.0.12:
+strapi-plugin-navigation@2.0.12:
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/strapi-plugin-navigation/-/strapi-plugin-navigation-2.0.12.tgz#8b32027dcb1e4fa09ccce1fb2a310b23e2720b13"
   integrity sha512-VwjUBbbWRPpD0EUOJ2pvryTWFJ+S9/2qGIYKgApLOGoRfaW1tr5DhLy4zMBBdIomaEP5ViyUAJF5qcE1UXs6/Q==
@@ -10632,7 +10632,7 @@ strapi-plugin-navigation@^2.0.12:
     slugify "^1.4.5"
     uuid "^8.3.0"
 
-strapi-plugin-preview-button@^0.3.1:
+strapi-plugin-preview-button@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/strapi-plugin-preview-button/-/strapi-plugin-preview-button-0.3.1.tgz#3d5b09e5625e01105aeaefd26a84789b222cadf7"
   integrity sha512-tuw7kmvBJPpHB+LLSzh6MT9wTWFGaRpV9/oPpbJihm72wDS29ZqRJh2Fgii9QBoTQNNahZXssQBM+yoYqHt/pg==
