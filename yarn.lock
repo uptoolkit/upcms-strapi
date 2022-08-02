@@ -10590,10 +10590,10 @@ std-env@^2.2.1:
   dependencies:
     ci-info "^3.1.1"
 
-strapi-plugin-email-designer@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-email-designer/-/strapi-plugin-email-designer-2.1.0.tgz#759cff0cb572e1d9b8737e13b7c8d8426b6238ec"
-  integrity sha512-QbVCYbV3mQ+8L3GdROWaawzaW5bgiYo7VftoQ7d5m4RsR+Aup8ShfU7BPeAyqqn3NH/9kq58I1CKX7/U6xMKag==
+strapi-plugin-email-designer@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-email-designer/-/strapi-plugin-email-designer-2.1.1.tgz#bcaeecda4b70946c45571cb825a3099114577013"
+  integrity sha512-04563vmUVTfJs/2ETc9uaD1dCEZuQ7lzxPRZM+LnN8FfHq+Qj/SRnd//UOzHILu86WK2UIU5d2GHZW9U0BNWfw==
   dependencies:
     dayjs "^1.10.7"
     decode-html "^2.0.0"
