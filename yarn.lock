@@ -10632,10 +10632,10 @@ strapi-plugin-navigation@^2.0.12:
     slugify "^1.4.5"
     uuid "^8.3.0"
 
-strapi-plugin-preview-button@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-preview-button/-/strapi-plugin-preview-button-0.3.1.tgz#3d5b09e5625e01105aeaefd26a84789b222cadf7"
-  integrity sha512-tuw7kmvBJPpHB+LLSzh6MT9wTWFGaRpV9/oPpbJihm72wDS29ZqRJh2Fgii9QBoTQNNahZXssQBM+yoYqHt/pg==
+strapi-plugin-preview-button@0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-preview-button/-/strapi-plugin-preview-button-0.3.6.tgz#272b56462249deffa3ae0239b1d3eace82b6e0c9"
+  integrity sha512-wyAZ792XUcMHX4Ze/rS/A8gMhh4YwLXmkqR8nM3FRbJRiFXQZLn00S+CrI9gZs04njv1Lz7ZcLtSJ2h5AEDWgQ==
   dependencies:
     immer "^9.0.12"
     prop-types "^15.8.1"
