@@ -1519,13 +1519,14 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@notum-cz/strapi-plugin-content-versioning@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@notum-cz/strapi-plugin-content-versioning/-/strapi-plugin-content-versioning-0.4.0.tgz#820111d662ec01e31c4ab9eace0a7b767eea4cdf"
-  integrity sha512-y5wXURqPqVkQv8FeE7/Q6Q9nyoXrXIpXGWvFwRWCWJ93fduGDIn1uiCcN1YZXUpByZy9qEDNUJHUAuHKNXDAPQ==
+"@notum-cz/strapi-plugin-content-versioning@0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@notum-cz/strapi-plugin-content-versioning/-/strapi-plugin-content-versioning-0.4.4.tgz#cf1f844a47c203d3266534be6827aff894d143db"
+  integrity sha512-xJOyuayTKv6BO0Fd/e3601RUCZ0z1HCeZvrovvKMypYa6L0b7StP/ITSitJ4FL/Dc6aAKCeOPDgEs2YQHSBIVw==
   dependencies:
     "@strapi/utils" "^4.0.0"
     lodash "^4.17.21"
+    uuid "^8.3.2"
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
