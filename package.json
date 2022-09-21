@@ -20,7 +20,7 @@
     "sqlite3": "5.0.2",
     "strapi-plugin-email-designer": "^2.1.0",
     "strapi-plugin-ezforms": "^0.0.7",
-    "strapi-plugin-navigation": "^2.0.12",
+    "strapi-plugin-navigation": "2.2.2",
     "strapi-plugin-preview-button": "^0.3.1"
   },
   "author": {
