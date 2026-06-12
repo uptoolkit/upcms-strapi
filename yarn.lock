@@ -993,6 +993,11 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.21.0":
+  version "7.29.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.29.7.tgz#12022450c45a4da6d8d8287b18a4ff2ddb23f768"
+  integrity sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw==
+
 "@babel/template@^7.16.7":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.16.7.tgz#8d126c8701fde4d66b264b3eba3d96f07666d155"
@@ -1519,13 +1524,14 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@notum-cz/strapi-plugin-content-versioning@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@notum-cz/strapi-plugin-content-versioning/-/strapi-plugin-content-versioning-0.4.0.tgz#820111d662ec01e31c4ab9eace0a7b767eea4cdf"
-  integrity sha512-y5wXURqPqVkQv8FeE7/Q6Q9nyoXrXIpXGWvFwRWCWJ93fduGDIn1uiCcN1YZXUpByZy9qEDNUJHUAuHKNXDAPQ==
+"@notum-cz/strapi-plugin-content-versioning@^1.0.0":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@notum-cz/strapi-plugin-content-versioning/-/strapi-plugin-content-versioning-1.3.4.tgz#5135bb27b8fad41507c06cf7d05e6169faa1ab0d"
+  integrity sha512-5ExMTRCQ6f3MUBPGTC+4e7+eHrgW3zHXjgFsWrIqQ9m30w2HZ2JC65mWONXkziGG1PWLzBaxWiuFIG+Mz6bmXA==
   dependencies:
-    "@strapi/utils" "^4.0.0"
+    "@strapi/utils" "^4.20.5"
     lodash "^4.17.21"
+    uuid "^9.0.1"
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
@@ -2145,7 +2151,7 @@
     lodash "4.17.21"
     yup "0.32.9"
 
-"@strapi/utils@^4.0.0", "@strapi/utils@^4.1.5":
+"@strapi/utils@^4.1.5":
   version "4.1.7"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.1.7.tgz#b4b898ef1fcb69b9c799b2458cd0397cd9cf6f48"
   integrity sha512-Qxxh3+JaBC2MnYG/IZVMMqVGJO/TIGzKZdVJv4ZCC07hKUuZHnRgnEEGGqMIQHfXF5VJBqlKdkzkdDJldSBxRw==
@@ -2154,6 +2160,18 @@
     date-fns "2.24.0"
     http-errors "1.8.0"
     lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@^4.20.5":
+  version "4.26.2"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.26.2.tgz#1815627e6d2aef6705a01b6ea966c0e735de7cc2"
+  integrity sha512-e+y/CaL9QUW62Q8MjQycof+Scd91+R5mXRc3Zp975A4KjhradxSDpMbcwUkvllWHluKYplAplUJoy1W86Ei+xw==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.30.0"
+    http-errors "1.8.1"
+    lodash "4.18.1"
+    p-map "4.0.0"
     yup "0.32.9"
 
 "@szmarczak/http-timer@^4.0.5":
@@ -4473,6 +4491,13 @@ date-fns@2.24.0:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.24.0.tgz#7d86dc0d93c87b76b63d213b4413337cfd1c105d"
   integrity sha512-6ujwvwgPID6zbI0o7UbURi2vlLDR9uP26+tW6Lg+Ji3w7dd0i3DOcjcClLjLPranT60SSEFBwdSyYwn/ZkPIuw==
+
+date-fns@2.30.0:
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
+  integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
+  dependencies:
+    "@babel/runtime" "^7.21.0"
 
 dayjs@^1.10.7, dayjs@^1.8.29:
   version "1.11.0"
@@ -7439,6 +7464,11 @@ lodash@4.17.21, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
+lodash@4.18.1:
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
+  integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -11375,6 +11405,11 @@ uuid@^8.0.0, uuid@^8.3.0, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuid@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
+  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
 v8flags@^2.0.10:
   version "2.1.1"
